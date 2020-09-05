@@ -30,6 +30,8 @@ a{
 }
 
 .bg-img{
+    display: flex;
+    justify-content: space-evenly;
     background-image: linear-gradient(
         to left, #00000000,#05050580), 
         url('./connect4.jpg');
@@ -94,25 +96,48 @@ button{
 }
 
 .form{
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
     color: white;
     border: solid blue 2px;
     border-radius: 20px;
     padding: 40px 40px;
-    text-align: left;
-    width: 310px;
-    top: 10vh;
-    left: 10vw;
+    height: 450px;
+    background-color: #0000008a;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 230px;
+}
+
+.signup-login-button{
+    color: blue; 
+    text-align: center; 
+    margin-bottom: 30px; 
+    font-weight: bold;
+    font-size: x-large;
 }
 
 input{
     text-decoration: none;
-    background-color: white;
-    border:solid blue 2px ;
+    background-color: #ffffff;
+    border: none;
     border-radius: 10px;
     margin: 10px 0 30px 0;
     height: 30px;
-    width: 230px;
     padding: 5px;
     color: black;
+}
+
+.signup-submit-button{
+    margin-top: 15px;
+}
+
+input:hover{
+border: solid 2px blue;
 }

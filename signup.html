@@ -13,10 +13,8 @@
 
   <body>
 
-    
-
     <section>
-        <nav class="social"></nav>
+      <!-- <nav class="social"></nav> -->
       <nav class="flexbox">
         <a href="index.html">Home</a>
         <a href="#">Teacher</a>
@@ -24,26 +22,29 @@
         <a href="#">Parent</a>
         <a href="#">About</a>
         <a href="#">Blog</a>
-    </nav>
-      <div class="bg-img" style="background-image: linear-gradient(to left, #00000000,#000000d3), url('./connect2.jpg');">
-          <div class="form">
-            <p 
-            style="
-            color: blue; 
-            text-align: center; 
-            margin-bottom: 30px; 
-            font-weight: bold;
-            font-size: larger;
-            ">LOGIN</p>
+    </nav>  
+      
+      <div class="bg-img" style="background-image: linear-gradient(to left, #00000080,#0000009a), url('./connect2.jpg');">
+        
+        <div class="form">
+            <p class="signup-login-button">LOGIN</p>
             <form>
                 <label for="uname">Username:</label><br>
                 <input type="text" id="uname" name="Username"><br>
                 <label for="pass">Password:</label><br>
-                <input type="password" id="pass" name="Password"><br>
-                <button class=""><a href="index.html">Submit</a></button><br>
-                <p>Don't have an account yet<span></span><a href="#" style="color: blue; ">Signup</a></span>?</p><br>
+                <input type="password" id="pass" name="Password">
+                <button class="signup-submit-button"><a href="index.html">Submit</a></button><br>
             </form> 
           </div>
+          <p style="
+          margin-top: 200px; 
+          font-size: xx-large; 
+          color: white;">
+          Don't have an account yet ? <br> Click here to
+          <a style="
+          color: blue; 
+          border-bottom: solid 3px blue;" 
+          href="#">Signup</a></p>
       </div>
       
     </section>
