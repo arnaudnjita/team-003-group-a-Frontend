@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    background-color: #070581;
+    height: 70px;
+    z-index: -1;
+    /* padding-left: 50%; */
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 2%; 
+    padding: 0 5px 5px 5px;
+    /* border-bottom: solid white 2px; */
+}
+
+.social{
+    height: 10px;
+    background-color: black;
+}
+
+.bg-img{
+    background-image: linear-gradient(
+        to left, #00000000,#05050580), 
+        url('./connect4.jpg');
+    height: 100vh;
+}
+
+.hd-text{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    color: white;
+    font-size: 60px;
+    /* width: 50%; */
+    
+}
+
+div .sub{
+    font-size: 25px;
+}
+
+.signup{
+    position: absolute;
+    top: 80%;
+    border-radius: 15px;
+    border: solid #070581 5px;
+    background-color: #070581;
+    color: white;
+    font-size: large;
+    padding: 5px 20px;
+    left: 10%; 
+}
+
+button{
+    border-radius: 10px;
+    border: solid blue 5px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding: 2px 10px;
+    /* width: 1px; */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login{
+    position: absolute;
+    top: 80%;
+    border-radius: 30px;
+    border: solid blue 5px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    padding: 10px 5px;
+    left: 18%; 
+    width: 200px;
+    text-align: center;
+}
+
+.social{
+    height: 25px;
+    background-color: black;
+}
+
+.form{
+    position: relative;
+    color: white;
+    border: solid blue 2px;
+    border-radius: 20px;
+    padding: 40px 40px;
+    text-align: left;
+    width: 310px;
+    top: 10vh;
+    left: 10vw;
+}
+
+input{
+    text-decoration: none;
+    background-color: white;
+    border:solid blue 2px ;
+    border-radius: 10px;
+    margin: 10px 0 30px 0;
+    height: 30px;
+    width: 230px;
+    padding: 5px;
+    color: black;
+}
